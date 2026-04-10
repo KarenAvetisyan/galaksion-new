@@ -1,0 +1,49 @@
+.animate-elipse,
+.animate-elipse2 {
+    --translate-x: -50%;
+    --translate-y: -50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(var(--translate-x), var(--translate-y));
+}
+
+.animate-elipse {
+    animation: infiniteRotate 600s infinite linear;
+}
+
+.animate-elipse2 {
+    animation: infiniteRotateReverse 300s infinite linear;
+}
+
+@keyframes infiniteRotate {
+    0% {
+        transform: translate(var(--translate-x), var(--translate-y)) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(var(--translate-x), var(--translate-y)) rotate(360deg);
+    }
+}
+
+@keyframes infiniteRotateReverse {
+    0% {
+        transform: translate(var(--translate-x), var(--translate-y)) rotate(1deg);
+    }
+
+    100% {
+        transform: translate(var(--translate-x), var(--translate-y)) rotate(-360deg);
+    }
+}
+
+
+.path {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

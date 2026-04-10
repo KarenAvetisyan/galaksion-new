@@ -1,0 +1,556 @@
+{
+    "A": [
+        {
+            "term": "A/B Testing",
+            "definition": "Comparing two or more versions of an ad campaign element to see which performs better."
+        },
+        {
+            "term": "Above the Fold",
+            "definition": "Webpage content visible before scrolling."
+        },
+        {
+            "term": "Ad Exchange",
+            "definition": "A digital marketplace where advertisers and publishers buy and sell ad inventory in real-time without protection of an intermediary."
+        },
+        {
+            "term": "Ad Fraud",
+            "definition": "An invalid activity that prevents ads from reaching real users (e.g. bot traffic, fake clicks or fraudulent impressions)."
+        },
+        {
+            "term": "Ad Inventory",
+            "definition": "Total space available for advertisements on a publisher’s platform."
+        },
+        {
+            "term": "Ad Network",
+            "definition": "A platform such as Galaksion that connects advertisers looking for ad placements and publishers searching for website monetization."
+        },
+        {
+            "term": "Ad Targeting",
+            "definition": "Delivering ads to specific audiences based on demographics, location, or behavior."
+        },
+        {
+            "term": "Advertiser",
+            "definition": "An individual, a company, or a brand that promotes products and services using digital ad campaigns."
+        },
+        {
+            "term": "Adware",
+            "definition": "Malicious software designed to display unwanted ads on affected devices."
+        },
+        {
+            "term": "Affiliate Link",
+            "definition": "A URL that serves as a unique identifier which tracks the source of web traffic back to a certain affiliate partner."
+        },
+        {
+            "term": "Affiliate Marketing",
+            "definition": "A marketing strategy where third-party affiliates earn commissions by promoting products or services from online merchants."
+        },
+        {
+            "term": "Affiliate Marketing Forum",
+            "definition": "An online community where affiliate marketers share ideas."
+        },
+        {
+            "term": "Affiliate Program",
+            "definition": "A partnership where affiliates earn a commission for driving sales."
+        },
+        {
+            "term": "Alexa Rank",
+            "definition": "An international ranking system measuring the website's popularity based on the number of visitors and engagements."
+        },
+        {
+            "term": "Alt Text",
+            "definition": "Descriptive text for images and graphics used for accessibility and SEO."
+        },
+        {
+            "term": "Anchor Text",
+            "definition": "Clickable text in a hyperlink taking the user to a webpage."
+        },
+        {
+            "term": "Application Programming Interface (API)",
+            "definition": "A set of programming rules enabling communication between software."
+        },
+        {
+            "term": "APK Offers",
+            "definition": "Offers promoting Android Package Kits, a file format used to distribute and install applications for the Android OS."
+        },
+        {
+            "term": "Auto-Download Offers",
+            "definition": "Offers that automatically download content upon user interaction."
+        }
+    ],
+    "B": [
+        {
+            "term": "Backlink",
+            "definition": "An inbound link to a webpage from another site that influences reputabilty and SEO ranking."
+        },
+        {
+            "term": "Banner Ad",
+            "definition": "A rectangular graphic ad often placed across the top or side of the webpage."
+        },
+        {
+            "term": "Behavioral Targeting",
+            "definition": "Showing relevant ads to users based on their online activity and browsing patterns (e.g. interactions, purchasing habits, and browsing history)."
+        },
+        {
+            "term": "Black Hat SEO",
+            "definition": "Unethical SEO tactics to manipulate search engine rankings by violating policies."
+        },
+        {
+            "term": "Blacklist",
+            "definition": "A list of underperforming ad zones an advertiser would like to exclude as traffic sources."
+        },
+        {
+            "term": "Bounce Rate",
+            "definition": "Percentage of visitors leaving the website without taking interactions upon entering."
+        },
+        {
+            "term": "Brand Safety",
+            "definition": "Protection from being assosiated with inappropriate or harmful content."
+        }
+    ],
+    "C": [
+        {
+            "term": "Chargeback",
+            "definition": "A reversal of a sales transaction upon a disputed charge."
+        },
+        {
+            "term": "Click Fraud",
+            "definition": "Fraudulent clicks on ads maliciously generated to inflate costs or revenues."
+        },
+        {
+            "term": "Click ID",
+            "definition": "A unique identifier for a specific click event designed to track the user's journey to conversion."
+        },
+        {
+            "term": "Click-Through",
+            "definition": "A user clicking on a link or an ad."
+        },
+        {
+            "term": "Click-Through Rate (CTR)",
+            "definition": "Ratio of clicks to the total number of impressions for a link or an ad."
+        },
+        {
+            "term": "Cloaking",
+            "definition": "A SEO technique masking content to deceive search engines."
+        },
+        {
+            "term": "Commission",
+            "definition": "A payment earned by an affiliate partner per customer action, like a sale or lead."
+        },
+        {
+            "term": "Content Farm",
+            "definition": "A platform producing large volumes of low-quality content for ad revenue."
+        },
+        {
+            "term": "Contextual Links",
+            "definition": "Links embedded within the body of a text that contains related information."
+        },
+        {
+            "term": "Conversion",
+            "definition": "A user completing a targeted action (e.g. a purchase, an installation, a sign-up, or filling out a form)."
+        },
+        {
+            "term": "Conversion Rate",
+            "definition": "Percentage of users who complete a desired action out of the total number of website visitors."
+        },
+        {
+            "term": "Cookies",
+            "definition": "Small data files stored on a user's device by a website identifying the visit and browsing activity."
+        },
+        {
+            "term": "CPC (Cost per Click)",
+            "definition": "Ad payment model based on the number of clicks received."
+        },
+        {
+            "term": "CPM (Cost per Mille)",
+            "definition": "Ad payment model based on every 1000 ad impressions."
+        },
+        {
+            "term": "CPA (Cost per Action)",
+            "definition": "Ad payment model based on the number of desired actions taken."
+        },
+        {
+            "term": "CPL (Cost per Lead)",
+            "definition": "Ad payment model based on the number of leads generated."
+        },
+        {
+            "term": "CPS (Cost per Sale)",
+            "definition": "Ad payment model based on the number of sales generated."
+        },
+        {
+            "term": "CPV (Cost per View)",
+            "definition": "Ad payment model based on the number of views the video received."
+        },
+        {
+            "term": "Crawler",
+            "definition": "A bot that scans websites to index content and ensure the proper functionality of affiliate links."
+        },
+        {
+            "term": "Creative",
+            "definition": "Images, videos, text, and other design elements used to convey the message of an ad and stimulate action visually."
+        },
+        {
+            "term": "Cross-Device Tracking",
+            "definition": "Monitoring user behavior across multiple devices for unified analytics used by advertisers."
+        }
+    ],
+    "D": [
+        {
+            "term": "Daily Budget",
+            "definition": "A daily spending limit for ad campaigns."
+        },
+        {
+            "term": "Datafeed",
+            "definition": "A digital catalogue containing detailed product data meant for affiliate marketing (e.g. images, descriptions, and pricing)."
+        },
+        {
+            "term": "Dayparting",
+            "definition": "Scheduling ads to be strategically displayed during specific times of the day."
+        },
+        {
+            "term": "Deep Link Generator",
+            "definition": "A tool to create deep links automatically."
+        },
+        {
+            "term": "Deep Linking",
+            "definition": "A link directing users to a specific page deep into the advertiser's website content."
+        },
+        {
+            "term": "Demand Side Platforms (DSP)",
+            "definition": "A platform allowing advertisers to programmatically buy ad space across multiple exchanges through a single interface."
+        },
+        {
+            "term": "Direct Billing Flow",
+            "definition": "A payment method billing users directly via mobile operator or internet service provider."
+        },
+        {
+            "term": "Direct Buy",
+            "definition": "Direct purchase of ad space without the protection of an intermediary."
+        },
+        {
+            "term": "Disclosure",
+            "definition": "Transparency about ad or affiliate relationships."
+        },
+        {
+            "term": "Display Advertising",
+            "definition": "Visual-based advertisements that appear on websites, apps, or social media platforms."
+        },
+        {
+            "term": "Domain Authority",
+            "definition": "A search engine metric measuring the website's credibility and ranking potential."
+        },
+        {
+            "term": "Domain Redirect",
+            "definition": "Redirecting one domain to another."
+        },
+        {
+            "term": "Double Opt-In (DOI)",
+            "definition": "A subscription confirmation process with two user interactions (e.g. email marketing)."
+        },
+        {
+            "term": "Duplicate Content",
+            "definition": "Identical content found on multiple webpages negatively impacting the SEO potential."
+        },
+        {
+            "term": "Dynamic Creative Optimization (DCO)",
+            "definition": "Technology that creates personalized ad content in real-time based on user data."
+        },
+        {
+            "term": "Dynamic Tracking",
+            "definition": "User activity tracking that adjusts dynamically based on real-time actions."
+        }
+    ],
+    "E": [
+        {
+            "term": "EPC (Earnings per Click)",
+            "definition": "Revenue earned per click."
+        },
+        {
+            "term": "Engagement Rate",
+            "definition": "An effectiveness metric of how much users interact with an ad campaign, such as clicks and conversions."
+        }
+    ],
+    "F": [
+        {
+            "term": "Fired Pixel",
+            "definition": "A tracking pixel that records a specific user action and offers insights into the effectiveness of an ad campaign."
+        },
+        {
+            "term": "First Click",
+            "definition": "Affiliate getting the commission by being the first click in a conversion path."
+        },
+        {
+            "term": "Flat Deal",
+            "definition": "A fixed-rate payment for ad campaigns."
+        },
+        {
+            "term": "Frequency / Capping",
+            "definition": "A feature limiting the number of times an ad is shown to the same user."
+        }
+    ],
+    "G": [
+        {
+            "term": "GEO Targeting",
+            "definition": "Delivering ads to users based on their geographic location."
+        }
+    ],
+    "H": [
+        {
+            "term": "Hit",
+            "definition": "A single request to load a webpage or resource."
+        },
+        {
+            "term": "HyperText Markup Language (HTML)",
+            "definition": "Standard language for webpages."
+        },
+        {
+            "term": "Hyperlink",
+            "definition": "A clickable link directing users to another page."
+        }
+    ],
+    "I": [
+        {
+            "term": "Impression",
+            "definition": "A single instance of an ad (view) being displayed to a user."
+        },
+        {
+            "term": "In-House",
+            "definition": "Ad management and execution within an organization."
+        },
+        {
+            "term": "In-Page Push",
+            "definition": "A non-intrusive ad format that mimics a push notification but appears within a webpage."
+        },
+        {
+            "term": "Inbound Link",
+            "definition": "An incoming link from another website."
+        },
+        {
+            "term": "Incentive Traffic",
+            "definition": "Traffic generated through rewards such as cash, discounts, or gifts."
+        },
+        {
+            "term": "Index or Indexing",
+            "definition": "Process of adding a website to a search engine database."
+        },
+        {
+            "term": "Interstitial Ads",
+            "definition": "Full-screen ad format consisting of an image with a title and a description that appear a few moments after the website is opened."
+        }
+    ],
+    "K": [
+        {
+            "term": "Key Performance Indicator (KPI)",
+            "definition": "Metrics used to evaluate the success of an ad campaign or strategy, such as CTR or ROI."
+        },
+        {
+            "term": "Keyword",
+            "definition": "Words or phrases users search for in search engines."
+        }
+    ],
+    "L": [
+        {
+            "term": "Landing Page",
+            "definition": "A standalone webpage users land on after clicking an ad designed specifically to convert the visitors into leads and customers."
+        },
+        {
+            "term": "Last Click",
+            "definition": "Affiliate getting the commission by being the last click in a conversion path."
+        },
+        {
+            "term": "Lead",
+            "definition": "A potential customer expressing interest in a product marketed via affiliates."
+        },
+        {
+            "term": "Lifetime Value",
+            "definition": "A revenue projection of the total value a customer can bring over their lifetime as a client."
+        },
+        {
+            "term": "Link Building",
+            "definition": "A SEO strategy of building relevant hyperlinks to a website from external sources."
+        },
+        {
+            "term": "Lookalike Audience (LAL audience)",
+            "definition": "A group of users who share characteristics with the advertiser's existing partners and are more likely to be converted into customers."
+        },
+        {
+            "term": "Loyalty Affiliates",
+            "definition": "Affiliates specializing in repeat customers and offering rewards in return for consistent actions."
+        }
+    ],
+    "M": [
+        {
+            "term": "Maximum Budget",
+            "definition": "Maximum spending limit for ad campaigns."
+        },
+        {
+            "term": "Merchant",
+            "definition": "A business selling products or services via affiliates."
+        },
+        {
+            "term": "Meta Description",
+            "definition": "A brief summary of a webpage's content that benefits the search engine results."
+        },
+        {
+            "term": "Mobile Affiliates",
+            "definition": "Affiliates focusing on mobile marketing."
+        }
+    ],
+    "N": [
+        {
+            "term": "Native Advertising",
+            "definition": "Ads that blend into the surrounding content and mimick the style and tone of the source material, making them appear natural and non-disruptive."
+        }
+    ],
+    "O": [
+        {
+            "term": "Off-Page SEO",
+            "definition": "A SEO strategy performed outside of a website."
+        },
+        {
+            "term": "Offer",
+            "definition": "A specific promotion for products or services."
+        },
+        {
+            "term": "On-Page SEO",
+            "definition": "A SEO strategy optimizing the website content for higher ranking."
+        },
+        {
+            "term": "Outbound Link",
+            "definition": "A link directing users away from a website."
+        }
+    ],
+    "P": [
+        {
+            "term": "Pixel",
+            "definition": "A small piece of code that tracks user behavior and conversions on websites."
+        },
+        {
+            "term": "Pay-per-Click (PPC)",
+            "definition": "Advertisers pay for each ad click."
+        },
+        {
+            "term": "Pay-per-Lead (PPL)",
+            "definition": "Advertisers pay for each lead."
+        },
+        {
+            "term": "Pay-per-Sale (PPS)",
+            "definition": "Advertisers pay for each sale."
+        },
+        {
+            "term": "Pay-per-View (PPV)",
+            "definition": "Advertisers pay per video view."
+        },
+        {
+            "term": "Prelander",
+            "definition": "A preliminary webpage before the main offer page."
+        },
+        {
+            "term": "Product Link",
+            "definition": "A link to a specific product page."
+        },
+        {
+            "term": "Profit",
+            "definition": "The financial gain from revenues after expenses."
+        },
+        {
+            "term": "Programmatic Advertising",
+            "definition": "Automated buying and selling of ad inventory using algorithms."
+        },
+        {
+            "term": "Publisher",
+            "definition": "An individual or company distributing content and embedding affiliate links within said content."
+        },
+        {
+            "term": "Push Notifications",
+            "definition": "Ad unit sent directly to the user's devices or browsers after subscription that takes enough space to attract users' attention ideally."
+        }
+    ],
+    "R": [
+        {
+            "term": "Raw Clicks",
+            "definition": "Unfiltered, raw data of clicks on a website."
+        },
+        {
+            "term": "Real-Time Bidding (RTB)",
+            "definition": "A process of selling and buying ad inventory in real-time auctions."
+        },
+        {
+            "term": "Reciprocal Links",
+            "definition": "A SEO strategy of websites exchanging links with one another."
+        },
+        {
+            "term": "Redirect or Redirection",
+            "definition": "Forwarding users from one URL to another."
+        },
+        {
+            "term": "Referring Domain",
+            "definition": "An external domain that sends traffic to a target website."
+        },
+        {
+            "term": "Referring URL",
+            "definition": "A specific URL that sends traffic to a target website."
+        },
+        {
+            "term": "Remnant Traffic",
+            "definition": "Ad inventory left unsold due to lower engagements and quality."
+        },
+        {
+            "term": "Retargeting",
+            "definition": "Serving ads to users who have previously visited a website or interacted with content."
+        },
+        {
+            "term": "Return on Investment (ROI)",
+            "definition": "A measure of how much profit an advertiser earns compared to their ad spend."
+        },
+        {
+            "term": "Revenue",
+            "definition": "Income generated from goods or services."
+        },
+        {
+            "term": "Run of Network (RON)",
+            "definition": "An ad placement strategy where ads can appear anywhere within a network of websites rather than specific chosen places."
+        }
+    ],
+    "S": [
+        {
+            "term": "Search Engine Marketing (SEM)",
+            "definition": "Promoting websites through paid ads on search engine result pages."
+        },
+        {
+            "term": "Search Engine Optimization (SEO)",
+            "definition": "Improving a website’s ranking in organic search results through strategic optimization."
+        },
+        {
+            "term": "Segment",
+            "definition": "A group of users categorized by shared characteristics for targeted advertising."
+        },
+        {
+            "term": "Self-Service Platform (SSP)",
+            "definition": "A platform that allows advertisers and publishers to manage their ad campaigns."
+        }
+    ],
+    "T": [
+        {
+            "term": "Target Audience",
+            "definition": "Specific group of people an ad is designed to reach."
+        },
+        {
+            "term": "Third-Party Data",
+            "definition": "Data collected by an entity without direct interaction with the user, often aggregated from multiple sources."
+        },
+        {
+            "term": "Tracking Pixel",
+            "definition": "A 1×1 image placed on a webpage to gather data on user behavior and conversions."
+        },
+        {
+            "term": "Traffic Source",
+            "definition": "Origin from which users arrive at a website, such as other websites, search engines, or social media."
+        }
+    ],
+    "U": [
+        {
+            "term": "User Acquisition",
+            "definition": "Process of gaining new users for a platform, app, or service."
+        }
+    ]
+}

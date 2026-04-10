@@ -1,0 +1,1 @@
+export { HomePartnersSection } from './section';

@@ -1,0 +1,1 @@
+export { HomeFaqSection } from './section';
