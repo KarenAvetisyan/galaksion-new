@@ -1,0 +1,185 @@
+@property --p {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: -200%;
+}
+
+[data-animation] {
+    --animation-delay: 0s;
+    --animation-duration: 2s;
+
+    animation-duration: var(--animation-duration);
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: var(--animation-delay);
+}
+
+@media (max-width: 756px) {
+    [data-animation] {
+        /* --animation-delay: 0s !important; */
+        --animation-duration: 1000ms !important;
+    }
+}
+
+[data-animation="fadeIn"] {
+    opacity: 0;
+    animation-name: fadeIn;
+}
+
+[data-animation="scaleUp"] {
+    transform: scale(0.9);
+    animation-name: scaleUp;
+}
+
+[data-animation="scaleDown"] {
+    transform: scale(1.3);
+    animation-name: scaleDown;
+}
+
+[data-animation="slideRight"] {
+    transform: translateX(-10%);
+    animation-name: slideRight;
+}
+
+[data-animation="rotate45"] {
+    transform: rotate(-45deg);
+    animation-name: rotate45;
+}
+
+[data-animation="fadeIn,scaleUp"] {
+    opacity: 0;
+    transform: scale(0.9);
+    animation: fadeIn var(--animation-duration) ease-out var(--animation-delay) forwards,
+        scaleUp var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+[data-animation="fadeIn,scaleDown"] {
+    opacity: 0;
+    transform: scale(1.3);
+    animation: fadeIn var(--animation-duration) ease-out var(--animation-delay) forwards,
+        scaleDown var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+[data-animation="fadeIn,slideUp"] {
+    opacity: 0;
+    transform: translateY(20%);
+    animation: fadeIn var(--animation-duration) ease-out var(--animation-delay) forwards,
+        slideUp var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+[data-animation="fadeIn,slideRight"] {
+    opacity: 0;
+    transform: translateX(-10%);
+    animation: fadeIn var(--animation-duration) ease-out var(--animation-delay) forwards,
+        slideRight var(--animation-duration) ease-out var(--animation-delay) forwards;
+}
+
+[data-animation="gradientSecondary"] {
+    background: var(--secondary);
+}
+
+[data-animation="gradientPrimary"] {
+    background: var(--primary);
+
+}
+
+[data-intersection="true"]:not([data-intersect]) [data-animation="gradientSecondary"],
+[data-intersection="true"]:not([data-intersect])[data-animation="gradientSecondary"],
+[data-intersection="true"]:not([data-intersect]) [data-animation="gradientPrimary"],
+[data-intersection="true"]:not([data-intersect])[data-animation="gradientPrimary"] {
+    background: transparent;
+}
+
+/*  */
+
+[data-animation="gradientSecondary"]::before,
+[data-animation="gradientPrimary"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: gradientAnimation 6s ease-out forwards;
+}
+
+[data-intersection="true"]:not([data-intersect]) [data-animation] {
+    animation: unset;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleDown {
+    from {
+        transform: scale(1.3);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(0%);
+
+    }
+}
+
+@keyframes rotate45 {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        /* --p: -200%; */
+        opacity: 0;
+
+    }
+
+    100% {
+        /* --p: 100%; */
+        opacity: 1;
+
+    }
+}
