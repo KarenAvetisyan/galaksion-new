@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: false
+  gather_facts: false
+  environment:
+      PATH: '{{ ansible_env.PATH }}:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/go/bin'
+  roles:
+      - deploy

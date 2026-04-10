@@ -1,0 +1,16 @@
+---
+# takes from --extra-vars docker_image="${CI_REGISTRY_IMAGE}/app"
+# example: registry.gglx.me/sites/monetize-time/app
+docker_image: ''
+docker_tag: latest
+
+# for docker run
+docker_command: ''
+
+# takes from --extra-vars app_name="${CI_PROJECT_NAME}"
+# example: monetize-time
+app_name: ''
+app_port: '12345'
+app_container_port: '3000'
+
+stage: dev

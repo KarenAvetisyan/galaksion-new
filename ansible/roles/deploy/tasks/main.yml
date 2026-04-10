@@ -1,0 +1,17 @@
+---
+- name: debug
+  debug:
+      msg: '{{ docker_image }}, {{ docker_tag }}, {{ app_name }}, {{ app_port }}, {{ stage }}, {{ docker_command }}'
+
+- name: docker pull image
+  command: 'docker pull {{ docker_image }}:{{ docker_tag }}'
+  tags: deploy
+
+- name: docker rm old container
+  command: 'docker rm -f {{ app_name }}-{{ stage }}'
+  ignore_errors: true
+  tags: deploy
+
+- name: docker run new container
+  command: 'docker run -d -p 127.0.0.1:{{ app_port }}:{{ app_container_port }} --restart=unless-stopped --log-driver=journald --name {{ app_name }}-{{ stage }} {{ docker_image }}:{{ docker_tag }} {{ docker_command }}'
+  tags: deploy

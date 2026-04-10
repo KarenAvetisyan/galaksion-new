@@ -1,0 +1,42 @@
+server {
+    listen {{ ip_address.stdout }}:80;
+    server_name {{ domain }};
+
+    underscores_in_headers on;
+    location ^~ /.well-known/acme-challenge/ {
+                charset utf-8;
+                root /usr/share/nginx/html;
+                proxy_pass http://cb-ops.gglx.me;
+    }
+
+    location / {
+      return 301 https://$host$request_uri;
+    }
+}
+
+server {
+    listen {{ ip_address.stdout }}:443 ssl;
+    server_name {{ domain }};
+
+    underscores_in_headers on;
+    location ^~ /.well-known/acme-challenge/ {
+                charset utf-8;
+                root /usr/share/nginx/html;
+                proxy_pass https://cb-ops.gglx.me;
+    }
+
+    error_log /var/log/nginx/{{ domain }}-error.log;
+    access_log /var/log/nginx/{{ domain }}-access.log;
+
+    include /etc/nginx/conf.d/includes/allow_list;
+    include /etc/nginx/conf.d/includes/main_include;
+    include /etc/nginx/conf.d/includes/headers;
+    include /etc/nginx/conf.d/includes/ssl_params;
+
+    ssl_certificate {{ cert_path }};
+    ssl_certificate_key {{ cert_key_path }};
+
+    location / {
+        proxy_pass http://127.0.0.1:{{ app_port }};
+    }
+}

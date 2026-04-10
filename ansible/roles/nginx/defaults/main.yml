@@ -1,0 +1,7 @@
+---
+domain: '{{ inventory_hostname }}'
+
+nginx_locations_dir: '/etc/nginx/conf.d'
+
+cert_path: /etc/letsencrypt/live/{{ domain }}/fullchain.pem
+cert_key_path: /etc/letsencrypt/live/{{ domain }}/privkey.pem

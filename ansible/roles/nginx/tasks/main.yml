@@ -1,0 +1,30 @@
+---
+- name: get default ip address
+  shell: "/usr/sbin/ip route get 1 | grep -oP 'src \\K\\S+' | cut -d' ' -f1"
+  register: ip_address
+  become: true
+  tags: nginx
+
+- name: debug
+  debug:
+      msg: 'ip_address: {{ ip_address.stdout }}'
+  tags: nginx
+
+- name: copy template nginx config
+  template:
+      src: nginx.conf.j2
+      dest: '{{ nginx_locations_dir }}/{{ domain }}.conf'
+      owner: root
+      group: root
+      mode: '0644'
+  become: true
+  register: result_copy_config
+  tags: nginx
+
+- name: nginx check config
+  command: '/usr/sbin/nginx -t'
+  ignore_errors: true
+  when: result_copy_config.changed
+  notify: reload nginx
+  become: true
+  tags: nginx

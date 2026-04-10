@@ -1,0 +1,38 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: [
+        './src/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/features/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
+    corePlugins: {
+        accessibility: false,
+        backdropBlur: false,
+        backdropBrightness: false,
+        backdropContrast: false,
+        backdropGrayscale: false,
+        backdropHueRotate: false,
+        backdropInvert: false,
+        backdropOpacity: false,
+        backdropSaturate: false,
+        backdropSepia: false,
+        blur: false,
+        brightness: false,
+        caretColor: false,
+        contrast: false,
+        content: false,
+        dropShadow: false,
+        grayscale: false,
+        hueRotate: false,
+        invert: false,
+        saturate: false,
+        sepia: false,
+        skew: false,
+    },
+    mode: 'jit',
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+};
